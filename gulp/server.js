@@ -10,7 +10,7 @@ const conf = require('./conf');
 
 function browserSyncInit(baseDir, browser) {
     if (!browser) {
-        browser = 'defaut';
+        browser = 'default';
     }
 
     let routes = null;
