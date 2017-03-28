@@ -1,0 +1,91 @@
+.hero {
+    position: relative;
+    /*background-attachment: fixed;*/
+
+    text-align: center;
+
+    @media screen and (max-width: 1015px) {
+        background-size: 100% auto;
+    }
+
+    .hero-container {
+        /*margin: 100px 0;*/
+    }
+
+    .info {
+        /*background-color: lightgray;*/
+        min-height: 30em;
+
+        .title {
+            font-family: 'Jim Nightshade' , cursive;
+            font-family: 'Anton', sans-serif;
+            font-size : 42px;
+
+            .highlight-brown {
+                color: #bf8040;
+            }
+
+            .highlight-red {
+                color: #b30000;
+            }
+        }
+
+        button {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            font-size: 200%;
+            white-space: pre-wrap;
+        }
+    }
+
+    .hero-title {
+        background: url('../assets/images/heimerdonger.png') no-repeat center top;
+        background-size: auto 75%;
+        color: #000;
+
+        font-family: $header-font;
+
+        text-transform: uppercase;
+
+        min-height: 30em;
+    }
+
+    .hero-title-l1 {
+        font-size: 65px;
+    }
+
+    .hero-title-l2 {
+        margin-top: 10px;
+
+        font-size: 28px;
+    }
+
+    .hero-p {
+        text-align: justify;
+    }
+
+    .hero-title-highlight {
+        color: $brand-primary;
+    }
+
+    .hero-buttons {
+        margin-top: 50px;
+
+        input {
+            width: 300px;
+            height: 40px;
+
+            padding: 0 15px;
+
+            line-height: 40px;
+        }
+
+        .btn-default {
+            height: 40px;
+
+            padding: 0 15px;
+        }
+    }
+}

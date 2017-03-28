@@ -1,0 +1,22 @@
+.navbar {
+    background: $body-bg;
+
+    text-transform: uppercase;
+
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+
+    li.active a,
+    a:hover {
+        color: $text-color;
+        background: #E2E2E2;
+    }
+
+    .navbar-brand-image {
+        width: auto;
+        height: 25px;
+    }
+
+    .icon-bar {
+        background: $text-color;
+    }
+}
