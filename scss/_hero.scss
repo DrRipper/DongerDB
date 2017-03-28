@@ -1,15 +1,13 @@
 .hero {
-    /*position: relative;
-    background: url('../assets/images/hero/background.jpg') no-repeat center top;
-    background-attachment: fixed;*/
 
-    background: url('../assets/images/hero/background.jpg') no-repeat center top;
+    background: url('../assets/images/test_3.jpg') no-repeat center top;
     background-size: auto 100%;
     background-attachment: fixed;
 
+
     text-align: center;
 
-    @media screen and (min-width: 1686px) {
+    @media screen and (min-width: 1550px) {
         background-size: 100% auto;
     }
 
@@ -17,35 +15,16 @@
         /*margin: 100px 0;*/
     }
 
-    .info {
-        /*background-color: lightgray;*/
-        min-height: 30em;
-        font-family : title-font;
-
-        .title {
-            font-size : 52px;
-            font-weight: bold;
-
-            .highlight-brown {
-                color: #bf8040;
-            }
-
-            .highlight-red {
-                color: #b30000;
-            }
-        }
-
-        button {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            font-size: 200%;
-            white-space: pre-wrap;
-        }
+    .donger {
+        padding-top: 5%;
     }
 
-    .hero-title {
+    .main {
+        padding-top: 10%;
+    }
+
+    /*.logo {
+        /*min-height: 25em;
         background: url('../assets/images/heimerdonger-full.png') no-repeat center top;
         background-size: auto 100%;
         color: #000;
@@ -53,8 +32,27 @@
         font-family: $header-font;
 
         text-transform: uppercase;
+    }*/
 
-        min-height: 30em;
+    .youtube {
+
+        padding-top: 10%;
+
+        iframe {
+            border-width: 0px;
+            width: 100%;
+            height: 100%;
+
+                @media screen and (min-width: 1550px) {
+                    width: 550px;
+                    height: 315px;
+                }            
+        }
+
+        .mygroup {
+            margin-top: 5%;
+            min-width: 550px;
+        }
     }
 
     .hero-title-l1 {

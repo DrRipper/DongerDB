@@ -1,7 +1,7 @@
 .footer {
     $footer-col-list-height: 30px;
 
-    background: url('../assets/images/footer/background.jpg') no-repeat center top;
+    background: url('../assets/images/test_3.jpg') no-repeat center bottom;
     background-size: auto 100%;
     background-attachment: fixed;
 
@@ -41,6 +41,11 @@
 
     .footer-col-logo {
         margin-top: 35px;
+
+        .logo{
+            width: 65%;
+            height: 65%;
+        }
     }
 
     .footer-col-list {
@@ -98,5 +103,6 @@
 
         font-size: 12px;
         text-align: center;
+        color:white;
     }
 }
