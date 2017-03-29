@@ -23,16 +23,22 @@
         padding-top: 10%;
     }
 
-    /*.logo {
-        /*min-height: 25em;
-        background: url('../assets/images/heimerdonger-full.png') no-repeat center top;
-        background-size: auto 100%;
-        color: #000;
+    .free {
+        width: 250px;
+        height: 200px;
+        transform: rotate(-45deg);
 
-        font-family: $header-font;
+        @media screen and (max-width: 1380px) {
+            position: auto;
 
-        text-transform: uppercase;
-    }*/
+        } 
+
+        @media screen and (min-width: 1381px) {
+            position: absolute;
+            top: 10%;
+            left: 0;
+        }
+    }
 
     .youtube {
 
